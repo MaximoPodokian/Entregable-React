@@ -4,6 +4,8 @@ import Home from "./components/Links/Home";
 import Items from "./components/Links/Items";
 import Offers from "./components/Links/Offers";
 import Contact from "./components/Links/Contact";
+import ItemListContainer from "./components/itemListContainer/itemListContainer";
+import './index.css';
 import "./App.css";
 
 function App() {

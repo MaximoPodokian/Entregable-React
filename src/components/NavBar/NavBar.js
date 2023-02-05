@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CartWidget from "../CartWidget/cartWidget";
+
 
 const NavBar = () => {
   return (
@@ -10,7 +10,6 @@ const NavBar = () => {
           <Link to="/">
             <img src="./EVC Logo Chico.jpg" width="50" alt="Logo EVC" />
           </Link>
-          <h6 clasName="estiloNumber">0</h6>
           <button
             className="navbar-toggler"
             type="button"
@@ -46,20 +45,12 @@ const NavBar = () => {
                 <Link className="nav-link " to="/contacto">
                   Contacto
                 </Link>
-              </li>
-
-              <li className="nav-item">
-                <a className="nav-link " href="#navbarNavAltMarkup">
-                  <cartWidget/>
-                </a>
-                
-              </li>
-              
-            </ul>
-            
+              </li>         
+            </ul>       
           </div>
            
         </div>
+        <cartWidget/>
       </nav>
     </div>
   );

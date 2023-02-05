@@ -1,5 +1,12 @@
 .estiloNumber{
+    display: flex;
     color: white;
-    height: 2 rem;
+    height: 4 rem;
+    justify-content: center;
 
+}
+
+.carrito{
+    display: flex;
+    justify-content:end;
 }
